@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="logi.css">
+</head>
+<body>
+    <div class="popup-container">
+        <div class="popup">
+            <img src="Shaket.jpg" alt="Person in Jacket" class="popup-image">
+            <div class="popup-content">
+                <button class="close-btn" onclick="closePopup()">&#10006;</button>
+                <h2>M-Cart</h2>
+                <p>Sign up for exclusive updates</p>
+                <form action="#">
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <div class="input-group">
+                        <span>+91 in</span>
+                        <input type="text" placeholder="Enter Your Number" required>
+                    </div>
+                  <button type="submit" class="subscribe-btn" style="font-weight: bold;"><a href="./index.html">Subscribe</a></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="log.js">
+
+        function closePopup() {
+            document.querySelector('.popup-container').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
